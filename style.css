@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f5f7fa;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
@@ -8,13 +9,15 @@ body {
   max-width: 800px;
   margin: 100px auto;
   padding: 30px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.85);
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   text-align: center;
+  border-radius: 12px;
 }
 h1 {
-  color: #333;
+  color: #004466;
 }
 p {
-  color: #666;
+  color: #333;
 }
+
