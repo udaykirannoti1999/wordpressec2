@@ -5,12 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My EC2 Website</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    #bio {
+      display: none;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <script>
+    function showBio() {
+      document.getElementById('bio').style.display = 'block';
+    }
+  </script>
 </head>
 <body>
   <div class="container">
-    <h1>🚀 Welcome to My EC2 Website! and jenkins</h1>
-     <h2>  hi kiran welcome to yuma </h2>
+    <h1>🚀 Welcome to My EC2 Website!</h1>
     <p>This is a basic HTML page served from Apache on EC2.</p>
-  </div>
-</body>
-</html>
+    <button onclick="showBio()">Click Me</button>
+    <div id="bio">
+      <h2>Rabindranath Tagore</h2>
+      <p>Rabindranath Tagore (1861–1941) was a Bengali polymath – a poet, writer, composer, philosopher and painter. He reshaped Bengali literature and music, as well as Indian art with
+
